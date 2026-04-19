@@ -434,8 +434,8 @@ $user_name = $_SESSION['user_name'] ?? 'User';
 <body>
 
 <?php 
-    if(file_exists("navbar.php")) { 
-        include "navbar.php"; 
+    if(file_exists("navbar_rso.php")) { 
+        include "navbar_rso.php"; 
     }
 ?>
 
