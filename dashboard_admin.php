@@ -562,7 +562,7 @@ $current_year = date('Y');
                 <div class="info-item"><span class="info-label">Full Name</span><span class="info-value"><?php echo htmlspecialchars($user_name); ?></span></div>
                 <div class="info-item"><span class="info-label">Email Address</span><span class="info-value"><?php echo htmlspecialchars($user_email); ?></span></div>
                 <div class="info-item"><span class="info-label">Role</span><span class="info-value">🔐 Security Administrator</span></div>
-                <div class="info-item"><span class="info-label">Access Level</span><span class="info-value">⚙️ Full System Access</span></div>
+                <div class="info-item"><span class="info-label">Access Level</span><span class="info-value">⚙️ Full Account Control</span></div>
                 <div class="info-item"><span class="info-label">Last Login</span><span class="info-value">📅 <?php echo date('F d, Y h:i A'); ?></span></div>
                 <div class="info-item"><span class="info-label">Account Status</span><span class="info-value"><span class="status-badge status-active">● Active</span></span></div>
             </div>
@@ -687,17 +687,7 @@ $current_year = date('Y');
                                     <input type="hidden" name="action_type" value="activate">
                                     <button type="submit" name="rso_action" class="btn-sm btn-activate">🟢 Activate</button>
                                 </form>
-                            <?php else: ?>
-                                <form method="POST" style="display: inline-block;">
-                                    <input type="hidden" name="rso_id" value="<?php echo $org['id']; ?>">
-                                    <input type="hidden" name="action_type" value="approve">
-                                    <button type="submit" name="rso_action" class="btn-sm btn-approve">✓ Approve</button>
-                                </form>
-                                <form method="POST" style="display: inline-block;">
-                                    <input type="hidden" name="rso_id" value="<?php echo $org['id']; ?>">
-                                    <input type="hidden" name="action_type" value="reject">
-                                    <button type="submit" name="rso_action" class="btn-sm btn-reject">✗ Reject</button>
-                                </form>
+                        
                             <?php endif; ?>
                         </td>
                     </tr>
