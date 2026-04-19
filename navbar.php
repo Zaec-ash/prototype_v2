@@ -4,7 +4,7 @@
         <a href="index.php">BSU ORG-TRACK</a>
     </div>
     <ul class="nav-links">
-        <li><a href="index.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>">🏠 Home</a></li>
+        <li><a href="index.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>">Home</a></li>
         <li><a href="student_viewing.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'student_viewing.php' ? 'active' : ''; ?>">Viewing</a></li>
         <li><a href="signin.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'signin.php' ? 'active' : ''; ?>">Sign In</a></li>
     </ul>
