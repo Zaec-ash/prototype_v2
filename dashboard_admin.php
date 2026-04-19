@@ -105,8 +105,7 @@ $rso_organizations = [
     ['id' => 'RSO-001', 'name' => 'IT SOCIETY', 'email' => 'it.society@bsu.edu.ph', 'adviser' => 'Prof. Jose Rizal', 'members' => '42', 'status' => 'active', 'date_registered' => '2023-06-15'],
     ['id' => 'RSO-002', 'name' => 'STUDENT COUNCIL', 'email' => 'student.council@bsu.edu.ph', 'adviser' => 'Prof. Maria Santos', 'members' => '35', 'status' => 'active', 'date_registered' => '2023-08-20'],
     ['id' => 'RSO-003', 'name' => 'BSU Chorale', 'email' => 'chorale@bsu.edu.ph', 'adviser' => 'Prof. Ricardo Cruz', 'members' => '50', 'status' => 'inactive', 'date_registered' => '2023-03-10'],
-    ['id' => 'RSO-004', 'name' => 'Junior Marketing Association', 'email' => 'jma@bsu.edu.ph', 'adviser' => 'Prof. Ana Lopez', 'members' => '28', 'status' => 'active', 'date_registered' => '2023-10-05'],
-    ['id' => 'RSO-005', 'name' => 'Robotics Club', 'email' => 'robotics@bsu.edu.ph', 'adviser' => 'Engr. Mike Santos', 'members' => '30', 'status' => 'pending', 'date_registered' => '2024-01-10'],
+    ['id' => 'RSO-004', 'name' => 'Junior Marketing Association', 'email' => 'jma@bsu.edu.ph', 'adviser' => 'Prof. Ana Lopez', 'members' => '28', 'status' => 'active', 'date_registered' => '2023-10-05']
 ];
 
 $active_count = count(array_filter($rso_organizations, fn($org) => $org['status'] === 'active'));
